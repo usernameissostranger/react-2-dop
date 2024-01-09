@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.weather {
+    width: 400px;
+    margin: 100px auto;
+}
+
+h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name {
+    display: flex;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.form input {
+    width: 80%;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0.5px solid white;
+    border-radius: 5    px;
+    color: white;
+}
+
+.form button {
+    width: 20%;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5    px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 0.5px solid white;
+    border-radius: 5    px;
+}
+
+td {
+    border: 1px solid;
+    padding: 10px;
+    border: 0.5px solid white;
+    border-radius: 5    px;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    background-image: url(img/1920x1152_0xKt04WCSF_2874156947812273520.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    animation-name: bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.weather {
+    width: 400px;
+    margin: 0 auto;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
