@@ -1,6 +1,11 @@
 
 
 const Table = ({data}) => {
+    const kelvinToCelsius = (kelvin) => {
+        return kelvin - 273.15;
+      };
+
+      
     return (
         <div>
             {
@@ -9,7 +14,7 @@ const Table = ({data}) => {
                 : <table>
                     <tr>
                         <td>temp</td>
-                        <td>{data.main.temp}</td>
+                        <td>{kelvinToCelsius(data.main.temp).toFixed(2)} °C</td>
                     </tr>
                     <tr>
                         <td>description</td>

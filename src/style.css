@@ -65,7 +65,7 @@ body {
     background-size: cover;
     padding-top: 100px;
     animation-name: bg;
-    animation-duration: 20s;
+    animation-duration: 17s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
